@@ -1,0 +1,30 @@
+h1, h2 {
+    text-align: center;
+}
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    filter: grayscale(100%);
+}
+
+p {
+    background-color:rgb(238, 233, 233);
+    padding: 30px;
+    display: inline-block;
+    margin: 15px;
+}
+
+div {
+    text-align: center;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
